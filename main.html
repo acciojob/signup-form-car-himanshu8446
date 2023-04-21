@@ -1,16 +1,67 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Form Car</title>
+  </head>
+  <body>
+    <form action="method">
+      <label for="name"> Name</label>
 
-<html>
+      <input type="text" id="name" placeholder="Name" />
+      <div>
+        <br />
+        <label for="email">Email</label>
+        <input type="email" name="" id="email" placeholder="Email" />
+      </div>
+      <br />
+      <div>
+        <label for="">Gender: </label> Male<input
+          type="radio"
+          name="gender"
+          id="gender_m"
+        />
+        
+        Female<input type="radio" name="gender" id="gender_f" />
+      </div>
+      <br>
+      <div>
+        <label for="">Choose your Car</label>
+        <select
+          name="Cars"
+          id="cars"
+          aria-placeholder="--Please choose an option-"
+        >
+          <option value="BMW">BMW</option>
+          <option value="Audi">Audi</option>
+          <option value="Mercedez">Mercedez</option>
+        </select>
+      </div>
+      <br>
+      <label for="age">Age</label>
+      <input type="number" id="age" placeholder="Age" />
+      <br>
+      <br>
+      <label for="dob">Date of Birth</label> <input type="date" id="dob" />
+      <br />
+      <br>
+      <label for="tel">Phone Number</label>
+      
+      <input type="number" name="" id="tel" placeholder="xxx-xxx-xxxx" />
+      <br>
+      <br />
+      <label for="password">Password</label>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+      <input type="password" id="password" placeholder="Password" />
+      <br>
+      <br />
+      <label for="tos">I agree to the TOS</label>
+      <input type="checkbox" id="tos" />
+      <br>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
 </html>
